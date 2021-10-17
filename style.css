@@ -1,0 +1,44 @@
+body {
+    background: #419658;
+    font-family: montserrat;
+    color: aliceblue;
+    font-size: 32px;
+}
+
+.text {
+    text-align: center;
+}
+
+.gif {
+    position: absolute;
+    margin-left: 1200px;
+    margin-top: 300px;
+}
+
+.block {
+    width: 400px;
+    height: 600px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+.text2 {
+    font-size: 0px;
+}
+
+a {
+    display: block;
+    width: 400px;
+    height: 532px;
+    background: url(Question.png) 100%;
+}
+
+a:hover {
+    background: url(vova.png) 100%;
+}
+
+.block:hover .text2 {
+    font-size: 32px;
+}
